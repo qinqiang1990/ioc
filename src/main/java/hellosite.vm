@@ -1,0 +1,5 @@
+		
+		#foreach($key in $map.keys())
+		
+		String $key = (String)request.getAttribute("$!value");
+    	#end						 
